@@ -1,0 +1,122 @@
+2025-03-21T07:05:08.078+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T07:05:08.083+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T07:05:08.085+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-21T07:05:08.256+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-1] c.e.bookstore.controller.BookController  : Received request to add a new book
+2025-03-21T07:05:08.256+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-1] c.example.bookstore.service.BookService  : Adding a new book
+2025-03-21T07:05:08.375+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-1] c.example.bookstore.service.BookService  : Book added successfully with ID: 8
+2025-03-21T07:05:08.377+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-1] c.e.bookstore.controller.BookController  : Book added successfully with ID: 8
+2025-03-21T07:06:13.806+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-4] c.e.bookstore.controller.BookController  : Received request to fetch all books
+2025-03-21T07:06:13.807+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-4] c.example.bookstore.service.BookService  : Fetching all books from the database
+2025-03-21T07:06:13.980+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-4] c.example.bookstore.service.BookService  : Retrieved 6 books
+2025-03-21T07:06:13.980+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-4] c.e.bookstore.controller.BookController  : Returning 6 books
+2025-03-21T07:07:22.649+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-7] c.e.bookstore.controller.BookController  : Received request to fetch book with ID: 2
+2025-03-21T07:07:22.651+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-7] c.example.bookstore.service.BookService  : Fetching book with ID: 2
+2025-03-21T07:07:22.672+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-7] c.e.bookstore.controller.BookController  : Returning book with ID : 2
+2025-03-21T07:08:24.821+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-10] c.e.bookstore.controller.BookController  : Received request to fetch book with ID: 1
+2025-03-21T07:08:24.822+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-10] c.example.bookstore.service.BookService  : Fetching book with ID: 1
+2025-03-21T07:08:24.837+05:30 ERROR 9612 --- [Online_Book_Store] [http-nio-8080-exec-10] c.example.bookstore.service.BookService  : Book with ID 1 not found
+2025-03-21T07:08:24.837+05:30 ERROR 9612 --- [Online_Book_Store] [http-nio-8080-exec-10] c.e.b.exception.BookNotFoundException    : BookNotFoundException: Book with ID 1 not found.
+2025-03-21T07:10:33.252+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-3] c.e.bookstore.controller.BookController  : Received request to update book with ID: 3
+2025-03-21T07:10:33.252+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-3] c.example.bookstore.service.BookService  : Updating book with ID: 3
+2025-03-21T07:10:33.257+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-3] c.example.bookstore.service.BookService  : Updating details for book ID: 3
+2025-03-21T07:10:33.279+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-3] c.example.bookstore.service.BookService  : Book with ID 3 updated successfully
+2025-03-21T07:10:33.279+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-3] c.e.bookstore.controller.BookController  : Book with ID 3 updated successfully
+2025-03-21T07:11:43.802+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-6] c.e.bookstore.controller.BookController  : Received request to update book with ID: 1
+2025-03-21T07:11:43.803+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-6] c.example.bookstore.service.BookService  : Updating book with ID: 1
+2025-03-21T07:11:43.808+05:30 ERROR 9612 --- [Online_Book_Store] [http-nio-8080-exec-6] c.example.bookstore.service.BookService  : Book with ID 1 not found for update
+2025-03-21T07:11:43.808+05:30 ERROR 9612 --- [Online_Book_Store] [http-nio-8080-exec-6] c.e.b.exception.BookNotFoundException    : BookNotFoundException: Book with ID 1 not found.
+2025-03-21T07:12:32.387+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-7] c.e.bookstore.controller.BookController  : Received request to update book with ID: 6
+2025-03-21T07:12:32.387+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-7] c.example.bookstore.service.BookService  : Updating book with ID: 6
+2025-03-21T07:12:32.395+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-7] c.example.bookstore.service.BookService  : Updating details for book ID: 6
+2025-03-21T07:12:32.411+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-7] c.example.bookstore.service.BookService  : Book with ID 6 updated successfully
+2025-03-21T07:12:32.412+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-7] c.e.bookstore.controller.BookController  : Book with ID 6 updated successfully
+2025-03-21T07:12:59.300+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-9] c.e.bookstore.controller.BookController  : Received request to delete book with ID: 6
+2025-03-21T07:12:59.300+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-9] c.example.bookstore.service.BookService  : Deleting book with ID: 6
+2025-03-21T07:12:59.925+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-9] c.example.bookstore.service.BookService  : Book with ID 6 deleted successfully
+2025-03-21T07:12:59.926+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-9] c.e.bookstore.controller.BookController  : Book with ID 6 deleted successfully
+2025-03-21T07:13:47.073+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-2] c.e.bookstore.controller.BookController  : Received request to delete book with ID: 11
+2025-03-21T07:13:47.073+05:30  INFO 9612 --- [Online_Book_Store] [http-nio-8080-exec-2] c.example.bookstore.service.BookService  : Deleting book with ID: 11
+2025-03-21T07:13:47.081+05:30 ERROR 9612 --- [Online_Book_Store] [http-nio-8080-exec-2] c.example.bookstore.service.BookService  : Book with ID 11 not found for deletion
+2025-03-21T07:13:47.082+05:30 ERROR 9612 --- [Online_Book_Store] [http-nio-8080-exec-2] c.e.b.exception.BookNotFoundException    : BookNotFoundException: Book with ID 11 not found.
+2025-03-21T07:21:55.613+05:30  INFO 9612 --- [Online_Book_Store] [RMI TCP Connection(28)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T07:21:55.620+05:30  INFO 9612 --- [Online_Book_Store] [RMI TCP Connection(28)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T07:21:55.635+05:30  INFO 9612 --- [Online_Book_Store] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T07:21:55.642+05:30  INFO 9612 --- [Online_Book_Store] [RMI TCP Connection(28)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T07:21:55.645+05:30  INFO 9612 --- [Online_Book_Store] [RMI TCP Connection(28)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T07:21:55.685+05:30  INFO 9612 --- [Online_Book_Store] [RMI TCP Connection(28)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T21:21:40.297+05:30  INFO 3608 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Starting BookServiceTest using Java 21.0.5 with PID 3608 (started by welcome in C:\Users\welcome\eclipse-workspace\Online_Book_Strore)
+2025-03-21T21:21:40.363+05:30 DEBUG 3608 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-21T21:21:40.366+05:30  INFO 3608 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T21:21:40.664+05:30  INFO 6524 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Starting BookServiceTest using Java 21.0.5 with PID 6524 (started by welcome in C:\Users\welcome\eclipse-workspace\Online_Book_Strore)
+2025-03-21T21:21:40.712+05:30 DEBUG 6524 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-21T21:21:40.725+05:30  INFO 6524 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T21:21:43.891+05:30  INFO 3608 --- [Online_Book_Store] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T21:21:44.096+05:30  INFO 3608 --- [Online_Book_Store] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interface.
+2025-03-21T21:21:44.729+05:30  INFO 6524 --- [Online_Book_Store] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T21:21:44.963+05:30  INFO 6524 --- [Online_Book_Store] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 211 ms. Found 1 JPA repository interface.
+2025-03-21T21:21:46.858+05:30  INFO 3608 --- [Online_Book_Store] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T21:21:47.178+05:30  INFO 3608 --- [Online_Book_Store] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T21:21:47.315+05:30  INFO 6524 --- [Online_Book_Store] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T21:21:47.327+05:30  INFO 3608 --- [Online_Book_Store] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T21:21:47.529+05:30  INFO 6524 --- [Online_Book_Store] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T21:21:47.593+05:30  INFO 6524 --- [Online_Book_Store] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T21:21:48.594+05:30  INFO 3608 --- [Online_Book_Store] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T21:21:48.797+05:30  INFO 6524 --- [Online_Book_Store] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T21:21:48.838+05:30  INFO 3608 --- [Online_Book_Store] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T21:21:49.058+05:30  INFO 6524 --- [Online_Book_Store] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T21:21:50.809+05:30  INFO 6524 --- [Online_Book_Store] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31693a86
+2025-03-21T21:21:50.818+05:30  INFO 6524 --- [Online_Book_Store] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T21:21:50.897+05:30  INFO 3608 --- [Online_Book_Store] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31693a86
+2025-03-21T21:21:50.901+05:30  INFO 3608 --- [Online_Book_Store] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T21:21:51.183+05:30  WARN 6524 --- [Online_Book_Store] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T21:21:51.188+05:30  WARN 6524 --- [Online_Book_Store] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-21T21:21:51.284+05:30  WARN 3608 --- [Online_Book_Store] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T21:21:51.345+05:30  WARN 3608 --- [Online_Book_Store] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-21T21:21:51.634+05:30  INFO 3608 --- [Online_Book_Store] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T21:21:51.665+05:30  INFO 6524 --- [Online_Book_Store] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T21:21:54.223+05:30  INFO 3608 --- [Online_Book_Store] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T21:21:54.375+05:30  INFO 6524 --- [Online_Book_Store] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T21:21:54.399+05:30  INFO 3608 --- [Online_Book_Store] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T21:21:54.740+05:30  INFO 6524 --- [Online_Book_Store] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T21:21:57.352+05:30  WARN 3608 --- [Online_Book_Store] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T21:21:57.404+05:30  WARN 6524 --- [Online_Book_Store] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T21:22:00.204+05:30  INFO 6524 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Started BookServiceTest in 21.256 seconds (process running for 25.532)
+2025-03-21T21:22:00.221+05:30  INFO 3608 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Started BookServiceTest in 21.189 seconds (process running for 25.384)
+2025-03-21T21:22:05.508+05:30  INFO 3608 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Adding a new book
+2025-03-21T21:22:05.763+05:30  INFO 6524 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Adding a new book
+2025-03-21T21:22:06.239+05:30  INFO 3608 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Adding a new book
+2025-03-21T21:22:06.263+05:30  INFO 3608 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book added successfully with ID: 1
+2025-03-21T21:22:06.331+05:30  INFO 6524 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Adding a new book
+2025-03-21T21:22:06.333+05:30  INFO 6524 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book added successfully with ID: 1
+2025-03-21T21:22:06.351+05:30  INFO 6524 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching all books from the database
+2025-03-21T21:22:06.352+05:30  INFO 6524 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Retrieved 2 books
+2025-03-21T21:22:06.670+05:30  INFO 6524 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching book with ID: 1
+2025-03-21T21:22:06.680+05:30  INFO 6524 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching book with ID: 100
+2025-03-21T21:22:06.681+05:30 ERROR 6524 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book with ID 100 not found
+2025-03-21T21:22:06.681+05:30 ERROR 6524 --- [Online_Book_Store] [main] c.e.b.exception.BookNotFoundException    : BookNotFoundException: Book with ID 100 not found.
+2025-03-21T21:22:06.788+05:30  INFO 3608 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching all books from the database
+2025-03-21T21:22:06.792+05:30  INFO 3608 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Retrieved 2 books
+2025-03-21T21:22:06.886+05:30  INFO 3608 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching book with ID: 1
+2025-03-21T21:22:07.080+05:30  INFO 6524 --- [Online_Book_Store] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T21:22:07.083+05:30  INFO 6524 --- [Online_Book_Store] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T21:22:07.482+05:30  INFO 3608 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching book with ID: 100
+2025-03-21T21:22:07.487+05:30 ERROR 3608 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book with ID 100 not found
+2025-03-21T21:22:07.494+05:30 ERROR 3608 --- [Online_Book_Store] [main] c.e.b.exception.BookNotFoundException    : BookNotFoundException: Book with ID 100 not found.
+2025-03-21T21:22:07.648+05:30  INFO 6524 --- [Online_Book_Store] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T21:22:07.757+05:30  INFO 3608 --- [Online_Book_Store] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T21:22:08.037+05:30  INFO 3608 --- [Online_Book_Store] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T21:22:08.112+05:30  INFO 3608 --- [Online_Book_Store] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

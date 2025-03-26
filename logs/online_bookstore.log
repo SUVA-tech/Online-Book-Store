@@ -1,0 +1,36 @@
+2025-03-21T21:45:16.948+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Retrieved 2 books
+2025-03-21T21:45:16.993+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching book with ID: 1
+2025-03-21T21:45:17.064+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Deleting book with ID: 1
+2025-03-21T21:45:17.069+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book with ID 1 deleted successfully
+2025-03-21T21:45:17.116+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Updating book with ID: 1
+2025-03-21T21:45:17.128+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Updating details for book ID: 1
+2025-03-21T21:45:17.134+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book with ID 1 updated successfully
+2025-03-21T21:45:17.171+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Deleting book with ID: 100
+2025-03-21T21:45:17.176+05:30 ERROR 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book with ID 100 not found for deletion
+2025-03-21T21:45:17.179+05:30 ERROR 10504 --- [Online_Book_Store] [main] c.e.b.exception.BookNotFoundException    : BookNotFoundException: Book with ID 100 not found.
+2025-03-21T21:45:17.202+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Updating book with ID: 100
+2025-03-21T21:45:17.212+05:30 ERROR 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book with ID 100 not found for update
+2025-03-21T21:45:17.217+05:30 ERROR 10504 --- [Online_Book_Store] [main] c.e.b.exception.BookNotFoundException    : BookNotFoundException: Book with ID 100 not found.
+2025-03-21T21:45:17.237+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching book with ID: 100
+2025-03-21T21:45:17.247+05:30 ERROR 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book not found with ID: 100
+2025-03-21T21:45:17.466+05:30 ERROR 10504 --- [Online_Book_Store] [main] c.e.b.exception.BookNotFoundException    : BookNotFoundException: Book not found with ID: 100
+2025-03-21T21:45:17.579+05:30  INFO 10504 --- [Online_Book_Store] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T21:45:17.588+05:30  INFO 10504 --- [Online_Book_Store] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T21:45:17.637+05:30  INFO 10504 --- [Online_Book_Store] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T22:12:59.849+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.b.controller.BookControllerTest      : Starting BookControllerTest using Java 21.0.5 with PID 11036 (started by welcome in C:\Users\welcome\eclipse-workspace\Online_Book_Strore)
+2025-03-21T22:12:59.852+05:30 DEBUG 11036 --- [Online_Book_Store] [main] c.e.b.controller.BookControllerTest      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-21T22:12:59.854+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.b.controller.BookControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T22:13:04.916+05:30  INFO 11036 --- [Online_Book_Store] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-03-21T22:13:04.932+05:30  INFO 11036 --- [Online_Book_Store] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-03-21T22:13:04.938+05:30  INFO 11036 --- [Online_Book_Store] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-03-21T22:13:05.044+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.b.controller.BookControllerTest      : Started BookControllerTest in 6.054 seconds (process running for 8.282)
+2025-03-21T22:13:05.665+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.bookstore.controller.BookController  : Received request to add a new book
+2025-03-21T22:13:05.675+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.bookstore.controller.BookController  : Book added successfully with ID: 1
+2025-03-21T22:13:05.852+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.bookstore.controller.BookController  : Received request to fetch all books
+2025-03-21T22:13:05.858+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.bookstore.controller.BookController  : Returning 2 books
+2025-03-21T22:13:05.994+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.bookstore.controller.BookController  : Received request to update book with ID: 1
+2025-03-21T22:13:06.017+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.bookstore.controller.BookController  : Book with ID 1 updated successfully
+2025-03-21T22:13:06.056+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.bookstore.controller.BookController  : Received request to fetch book with ID: 1
+2025-03-21T22:13:06.067+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.bookstore.controller.BookController  : Returning book with ID : 1
+2025-03-21T22:13:06.094+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.bookstore.controller.BookController  : Received request to delete book with ID: 1
+2025-03-21T22:13:06.100+05:30  INFO 11036 --- [Online_Book_Store] [main] c.e.bookstore.controller.BookController  : Book with ID 1 deleted successfully

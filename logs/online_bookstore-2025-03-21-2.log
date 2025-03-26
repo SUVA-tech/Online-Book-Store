@@ -1,0 +1,68 @@
+2025-03-21T21:39:05.689+05:30  INFO 15912 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Starting BookServiceTest using Java 21.0.5 with PID 15912 (started by welcome in C:\Users\welcome\eclipse-workspace\Online_Book_Strore)
+2025-03-21T21:39:05.697+05:30 DEBUG 15912 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-21T21:39:05.699+05:30  INFO 15912 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T21:39:07.264+05:30  INFO 15912 --- [Online_Book_Store] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T21:39:07.398+05:30  INFO 15912 --- [Online_Book_Store] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 1 JPA repository interface.
+2025-03-21T21:39:08.269+05:30  INFO 15912 --- [Online_Book_Store] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T21:39:08.344+05:30  INFO 15912 --- [Online_Book_Store] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T21:39:08.397+05:30  INFO 15912 --- [Online_Book_Store] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T21:39:09.382+05:30  INFO 15912 --- [Online_Book_Store] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T21:39:09.436+05:30  INFO 15912 --- [Online_Book_Store] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T21:39:10.053+05:30  INFO 15912 --- [Online_Book_Store] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2404abe2
+2025-03-21T21:39:10.057+05:30  INFO 15912 --- [Online_Book_Store] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T21:39:10.153+05:30  WARN 15912 --- [Online_Book_Store] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T21:39:10.161+05:30  WARN 15912 --- [Online_Book_Store] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-21T21:39:10.199+05:30  INFO 15912 --- [Online_Book_Store] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T21:39:12.025+05:30  INFO 15912 --- [Online_Book_Store] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T21:39:12.115+05:30  INFO 15912 --- [Online_Book_Store] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T21:39:12.862+05:30  WARN 15912 --- [Online_Book_Store] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T21:39:13.806+05:30  INFO 15912 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Started BookServiceTest in 8.786 seconds (process running for 10.698)
+2025-03-21T21:39:15.827+05:30  INFO 15912 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Adding a new book
+2025-03-21T21:39:15.918+05:30  INFO 15912 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Adding a new book
+2025-03-21T21:39:16.069+05:30  INFO 15912 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book added successfully with ID: 1
+2025-03-21T21:39:16.120+05:30  INFO 15912 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching all books from the database
+2025-03-21T21:39:16.125+05:30  INFO 15912 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Retrieved 2 books
+2025-03-21T21:39:16.183+05:30  INFO 15912 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching book with ID: 1
+2025-03-21T21:39:16.216+05:30  INFO 15912 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching book with ID: 100
+2025-03-21T21:39:16.250+05:30 ERROR 15912 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book not found with ID: 100
+2025-03-21T21:39:16.257+05:30 ERROR 15912 --- [Online_Book_Store] [main] c.e.b.exception.BookNotFoundException    : BookNotFoundException: Book not found with ID: 100
+2025-03-21T21:39:16.345+05:30  INFO 15912 --- [Online_Book_Store] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T21:39:16.362+05:30  INFO 15912 --- [Online_Book_Store] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T21:39:16.462+05:30  INFO 15912 --- [Online_Book_Store] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T21:45:06.036+05:30  INFO 10504 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Starting BookServiceTest using Java 21.0.5 with PID 10504 (started by welcome in C:\Users\welcome\eclipse-workspace\Online_Book_Strore)
+2025-03-21T21:45:06.040+05:30 DEBUG 10504 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-21T21:45:06.042+05:30  INFO 10504 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T21:45:08.908+05:30  INFO 10504 --- [Online_Book_Store] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T21:45:09.108+05:30  INFO 10504 --- [Online_Book_Store] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interface.
+2025-03-21T21:45:10.003+05:30  INFO 10504 --- [Online_Book_Store] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T21:45:10.089+05:30  INFO 10504 --- [Online_Book_Store] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T21:45:10.152+05:30  INFO 10504 --- [Online_Book_Store] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T21:45:10.653+05:30  INFO 10504 --- [Online_Book_Store] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T21:45:10.707+05:30  INFO 10504 --- [Online_Book_Store] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T21:45:11.341+05:30  INFO 10504 --- [Online_Book_Store] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69d2e517
+2025-03-21T21:45:11.381+05:30  INFO 10504 --- [Online_Book_Store] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T21:45:11.449+05:30  WARN 10504 --- [Online_Book_Store] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T21:45:11.464+05:30  WARN 10504 --- [Online_Book_Store] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-21T21:45:11.501+05:30  INFO 10504 --- [Online_Book_Store] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T21:45:13.055+05:30  INFO 10504 --- [Online_Book_Store] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T21:45:13.130+05:30  INFO 10504 --- [Online_Book_Store] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T21:45:13.935+05:30  WARN 10504 --- [Online_Book_Store] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T21:45:14.961+05:30  INFO 10504 --- [Online_Book_Store] [main] c.e.bookstore.service.BookServiceTest    : Started BookServiceTest in 9.608 seconds (process running for 11.636)
+2025-03-21T21:45:16.691+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Adding a new book
+2025-03-21T21:45:16.781+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Adding a new book
+2025-03-21T21:45:16.787+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Book added successfully with ID: 1
+2025-03-21T21:45:16.942+05:30  INFO 10504 --- [Online_Book_Store] [main] c.example.bookstore.service.BookService  : Fetching all books from the database
