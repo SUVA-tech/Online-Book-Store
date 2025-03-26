@@ -36,7 +36,7 @@ public class BookService {
     }
     
    
-    // Retrieves a book by its ID, throws an exception if not found
+    // Retrieves a book by  ID, throws an exception if not found
     public Book getBookById(Long id) { // Using Long for ID
         logger.info("Fetching book with ID: {}", id);
         return bookRepository.findById(id)

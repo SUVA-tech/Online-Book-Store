@@ -47,6 +47,12 @@ public class BookController {
     }
 
    // Retrieve all books (GET)
+   /**
+ * Retrieve a book by its ID.
+ *
+ * @param id The ID of the book to retrieve.
+ * @return ResponseEntity containing the book if found, or an error if not found.
+ */
     @GetMapping
     public ResponseEntity<List<Book>> getAllBooks() {
     	logger.info("Received request to fetch all books");
